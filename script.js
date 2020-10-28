@@ -32,7 +32,7 @@ d3.csv("unemployment.csv", d3.autoType).then(data => {
     areaChart.on("brushed", (range)=>{
         stackedAreaChart.filterByDate(range); // coordinating with stackedAreaChart
     })
-})
+});
 
 
 
