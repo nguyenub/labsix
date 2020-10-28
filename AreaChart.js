@@ -2,7 +2,7 @@ export default function AreaChart(container){
 
     // initialization
     let margin = { top: 40, right: 20, bottom: 40, left: 90 },
-    width = 750 - margin.left - margin.right,
+    width = 700 - margin.left - margin.right,
     height = 150 - margin.top - margin.bottom; 
 
     var type = ""
@@ -26,7 +26,7 @@ export default function AreaChart(container){
 
     svg.append("path")
         .attr("class", "area")
-        .attr("fill", "LightGoldenrodYellow")
+        .attr("fill", "PeachPuff")
 
 //=== Create & Initialize Axes ===
 var xAxis = d3.axisBottom()
