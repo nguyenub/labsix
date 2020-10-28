@@ -1,8 +1,8 @@
 export default function AreaChart(container){
 
     // initialization
-    let margin = { top: 40, right: 20, bottom: 40, left: 400 },
-    width = 1000 - margin.left - margin.right,
+    let margin = { top: 40, right: 20, bottom: 40, left: 90 },
+    width = 750 - margin.left - margin.right,
     height = 150 - margin.top - margin.bottom; 
 
     var type = ""

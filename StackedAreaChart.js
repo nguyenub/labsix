@@ -1,8 +1,8 @@
 export default function StackedAreaChart(container){
 
     // INITIALIZATION
-    let margin = { top: 40, right: 20, bottom: 40, left: 400 },
-    width = 1000 - margin.left - margin.right,
+    let margin = { top: 40, right: 20, bottom: 40, left: 90 },
+    width = 750 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom; 
 
     var type = ""
@@ -58,8 +58,8 @@ export default function StackedAreaChart(container){
            svg.select('axis y-axis').exit().remove()
 
         // INITIALIZATION
-           let margin = { top: 40, right: 20, bottom: 40, left: 400 },
-           width = 1000 - margin.left - margin.right,
+           let margin = { top: 40, right: 20, bottom: 40, left: 90 },
+           width = 750 - margin.left - margin.right,
            height = 400 - margin.top - margin.bottom; 
 
            var type = ""
